@@ -1,0 +1,37 @@
+Tabla "Productos":
+
+IdProducto
+Descripcion
+Stock
+Precio
+Talla
+Color
+Género
+Imagen
+
+
+Tabla "Clientes":
+
+IdCliente
+Nombre
+Apellidos
+Contraseña
+Correo
+Administrador
+
+
+Tabla "Pedidos":
+
+IdPedido
+IdCliente
+Fecha
+ImporteTotal
+
+
+Tabla "Detalle_Pedido":
+
+IdDetalle
+IdPedido
+IdProducto
+Cantidad
+Subtotal
